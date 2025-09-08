@@ -53,4 +53,28 @@ body {
     margin: 5px 0 0 10px;
     color: #333;
   }
+.buton-pdf {
+  background-color: #ff4d4d;
+  color: #ffffff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  display: inline-block;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.buton-pdf:hover {
+  background-color: #e60000;
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+}
+
+.buton-pdf:active {
+  transform: scale(0.97);
+}
   
